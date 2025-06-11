@@ -31,6 +31,3 @@ shiny = load_asset("assets/colorscripts/shiny/")
 def random_asset_from_list(asset_list):
      import random
      return random.choice(asset_list)
-
-a = random_asset_from_list(regular)["content"]
-print(a)
