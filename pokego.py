@@ -5,5 +5,8 @@ shiny = load_asset("assets/colorscripts/shiny/")
 
 a = random_asset_from_list(regular)["content"]
 b = random_asset_from_list(shiny)["content"]
-print(a)
-print(b)
+c = random_asset_from_list(regular)
+# print(a)
+# print(b)
+print(c["content"])
+print(c["filename"])
